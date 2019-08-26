@@ -7,3 +7,4 @@ requests==2.22.0
 rsa==4.0
 nano-python==2.0.1
 humanfriendly==4.18
+pytz==2019.2
