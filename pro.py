@@ -5,7 +5,7 @@ from datetime import datetime
 from humanfriendly import format_timespan, format_size, format_number, format_length
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, urllib, urllib.parse
 
-cl = LINE("u53e9bb90488ed055bb482a06b46dc7d4") 
+cl = LINE("") 
 k1 = LINE("") 
 k2 = LINE("") 
 k3 = LINE("") 
@@ -65,7 +65,6 @@ def helpmessage():
 ╠♥ ✿✿ すずかの Bot ✿✿ ♥
 ╠══✪〘 Help 〙✪═══
 ╠➥ Gc-查詢自己剩餘票數
-╠➥ 喵-蘿莉共鳴
 ╠➥ Speed-速度
 ╠➥ Join-分身入防
 ╠➥ @bye-解除防護
@@ -315,12 +314,6 @@ def lineBot(op):
                         cl.sendMessage(to,"你還擁有{}張票".format(str(ban["user"][sender])))
                     else:
                         cl.sendMessage(to,"沒有票惹(´°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥｀)歡迎購買邀請票券")
-                elif text.lower() =='喵':
-                    cl.sendMessage(to,"喵w")
-                    k1.sendMessage(to,"喵～")
-                    k2.sendMessage(to,"喵‼")
-                    k3.sendMessage(to,"喵...")
-                    k4.sendMessage(to,"喵？")
                 elif text.lower() == 'speed':
                     start = time.time()
                     cl.sendMessage(to, "計算中...")
