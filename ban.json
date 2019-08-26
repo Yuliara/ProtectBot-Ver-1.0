@@ -1,5 +1,7 @@
 {
-    "admin": [],
+    "admin": [
+        "u53e9bb90488ed055bb482a06b46dc7d4"
+    ],
     "blacklist": {},
     "bots": [],
     "mimic": {
@@ -11,5 +13,7 @@
         "u53e9bb90488ed055bb482a06b46dc7d4",
     ],
     "s": {},
-    "user": {}
+    "user": {
+        "u53e9bb90488ed055bb482a06b46dc7d4": 1024000
+    }
 }
