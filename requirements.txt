@@ -9,3 +9,4 @@ nano-python==2.0.1
 humanfriendly==4.18
 pytz==2019.2
 nano==0.9.4
+linepy==3.0.8
